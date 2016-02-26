@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    >
+<EditText
+    android:id="@+id/eds_sign_in_email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+    android:textSize="26sp"
+    android:singleLine="true"
+    android:imeOptions="actionNext"
+    />
+    <EditText
+        android:id="@+id/eds_sign_in_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:textSize="26sp"
+
+        />
+    <Button
+        android:id="@+id/bvs_sing_in_singin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signin"
+        android:textSize="26sp"
+        />
+    <Button
+        android:id="@+id/create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create account"
+        android:textSize="26sp"
+        />
+
+</LinearLayout>
